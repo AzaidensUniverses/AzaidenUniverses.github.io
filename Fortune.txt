@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Fortune</title>
+
+</head>
+
+<body>
+  <script>
+    var numKids = 'N';
+    var partner = 'Z';
+    var geoLocation = 'Y';
+    var jobTitle = 'X';
+    var future = 'You will be a ' + jobTitle + ' in ' + geoLocation + ', and married to ' +
+      partner + ' ' + ' with ' + numKids + ' kids.';
+    console.log(future);
+
+
+    function tellFortune(jobTitle, geoLocation, partner, numKids) {
+      var future = 'You will be a ' + jobTitle + ' in ' + geoLocation + ' and married to ' +
+        partner + ' ' + ' with ' + numKids + ' kids.';
+      alert(future)
+
+    }
+    tellFortune('magician', 'California', 'Wiccan', 69);
+    tellFortune('artist', 'Paris', 'Billie Eilish', 33);
+    tellFortune('director', 'Japan', 'Melanie Martinez', 45);
+
+  </script>
+</body>
