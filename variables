@@ -1,0 +1,16 @@
+<!doctype HTML>
+<html>
+
+<head>
+  <title>Intro to JavaScript</title>
+</head>
+<script>
+  let ourPlanetName = "Earth";
+  let currentuserName = "Sergio";
+  alert(ourPlanetName);
+</script>
+
+<body>
+</body>
+
+</html>
